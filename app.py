@@ -4,7 +4,6 @@ import streamlit as st
 from modules.datos import display_other_feature_ui
 from modules.estudio import display_other_feature_ui2
 
-from modules.kimi_chat import display_kimi_chat_ui
 from modules.extractorids import display_scraper_ui  # <--- 1. IMPORTA LA NUEVA FUNCIÓN
 
 def main():
@@ -25,7 +24,7 @@ def main():
     tool_options = (
         "Local Y Visitante",
         "Ids Proximos Partidos",
-        "Chat con Kimi K2",
+        
         "Entreno"
     )
     
